@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-class AddNoteViewController: UIViewController {
+class AddNoteViewController: UIViewController { 
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var noteTextField: UITextView!
     var chosenNote = ""
